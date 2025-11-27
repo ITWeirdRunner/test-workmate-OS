@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 Пример запуска:
 ```
-python -m src.cli --files examples/data1.csv examples/data2.csv --report performance
+python -m src.cli --files examples/data1.csv --report performance
 ```
 
 В консоль будет выведен результат работы отчета 'performance', а именно таблица со столбцами `position` и `avg_performance`, отсортированная по убыванию эффективности.
