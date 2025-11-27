@@ -1,4 +1,4 @@
-# Developer Performance Report
+# Report
 
 Простая утилита для формирования отчёта по CSV-файлам с информацией о закрытых задачах.
 
@@ -11,7 +11,12 @@ pip install -r requirements.txt
 
 Пример запуска:
 ```
-python -m src.cli --files examples/data1.csv --report performance
+python -m src.main --files examples/data1.csv --report performance
+```
+
+Получить справку по доступным командам
+```
+python -m src.main --help
 ```
 
 В консоль будет выведен результат работы отчета 'performance', а именно таблица со столбцами `position` и `avg_performance`, отсортированная по убыванию эффективности.
